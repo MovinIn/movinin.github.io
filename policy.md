@@ -1,9 +1,9 @@
 ---
 layout: page
-title: About
-permalink: /about/
+title: Policy
+permalink: /policy/
 ---
 
-# About
+# Policy
 
-Welcome to the about page!
+Welcome to the policy page!
