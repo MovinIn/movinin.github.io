@@ -1,4 +1,3 @@
-# Privacy Policy
 The Bible Verse Memorizer does not obtain any user information or share with third parties. Registration is not required. 
 
 ## Contact Us
