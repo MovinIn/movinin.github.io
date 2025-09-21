@@ -1,2 +1,3 @@
 name: Support
 theme: minima
+markdown: kramdown
