@@ -8,3 +8,5 @@ Welcome to my website! Here are some of my projects.
 [SHSChess](https://shschess.appspot.com){:target="_blank" rel="noopener"}  
 ## LinkedIn
 [LinkedIn](www.linkedin.com/in/josephhlam){:target="_blank" rel="noopener"}  
+## Github
+[Github](https://github.com/MovinIn){:target="_blank" rel="noopener"}  
