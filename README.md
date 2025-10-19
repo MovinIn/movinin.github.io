@@ -7,6 +7,6 @@ Welcome to my website! Here are some of my projects.
 ## Saratoga High School Chess Website
 [SHSChess](https://shschess.appspot.com){:target="_blank" rel="noopener"}  
 ## LinkedIn
-[LinkedIn](www.linkedin.com/in/josephhlam){:target="_blank" rel="noopener"}  
+[LinkedIn](https://linkedin.com/in/josephhlam){:target="_blank" rel="noopener"}  
 ## Github
 [Github](https://github.com/MovinIn){:target="_blank" rel="noopener"}  
