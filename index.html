@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Joseph Lam</title>
+  <meta name="description" content="Projects by Joseph Lam — Bible Verse Memorizer, PrayChrist, HopeWeave, and more." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,700&family=Figtree:wght@400;500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="assets/css/site.css" />
+</head>
+<body>
+  <div class="atmosphere" aria-hidden="true">
+    <div class="atmosphere__wash"></div>
+    <div class="atmosphere__orb atmosphere__orb--one"></div>
+    <div class="atmosphere__orb atmosphere__orb--two"></div>
+    <div class="atmosphere__grain"></div>
+  </div>
+
+  <header class="site-header">
+    <a class="wordmark" href="/">Joseph Lam</a>
+    <nav class="nav" aria-label="Primary">
+      <a href="#projects">Projects</a>
+      <a href="#connect">Connect</a>
+      <a href="support.html">Support</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero">
+      <p class="hero__brand">Joseph Lam</p>
+      <h1 class="hero__headline">Building tools to help people.</h1>
+      <p class="hero__lede">
+        Apps and sites for learning, community, and everyday life.
+      </p>
+      <div class="hero__actions">
+        <a class="btn btn--primary" href="#projects">See projects</a>
+        <a class="btn btn--ghost" href="https://github.com/MovinIn" target="_blank" rel="noopener noreferrer">GitHub</a>
+      </div>
+    </section>
+
+    <section class="projects" id="projects" aria-labelledby="projects-heading">
+      <div class="section-intro">
+        <h2 id="projects-heading">Projects</h2>
+        <p>A few things I’ve shipped and still tend.</p>
+      </div>
+
+      <ul class="project-list">
+        <li>
+          <a class="project-link" href="https://bverse.navedu.uk/" target="_blank" rel="noopener noreferrer">
+            <span class="project-link__meta">
+              <span class="project-link__name">Bible Verse Memorizer</span>
+              <span class="project-link__desc">Spaced review for Scripture memory — tags, reminders, and multi-verse import.</span>
+            </span>
+            <span class="project-link__cta">bverse.navedu.uk</span>
+          </a>
+        </li>
+        <li>
+          <a class="project-link" href="https://praychrist.navedu.uk/" target="_blank" rel="noopener noreferrer">
+            <span class="project-link__meta">
+              <span class="project-link__name">PrayChrist</span>
+              <span class="project-link__desc">Daily prayer habits, answered-prayer tracking, and shared prayer groups.</span>
+            </span>
+            <span class="project-link__cta">praychrist.navedu.uk</span>
+          </a>
+        </li>
+        <li>
+          <a class="project-link" href="https://hopeweave.org" target="_blank" rel="noopener noreferrer">
+            <span class="project-link__meta">
+              <span class="project-link__name">HopeWeave</span>
+              <span class="project-link__desc">Nonprofit work in progress — connecting people who want to help with those who need it.</span>
+            </span>
+            <span class="project-link__cta">hopeweave.org</span>
+          </a>
+        </li>
+        <li>
+          <a class="project-link" href="https://shschess.appspot.com" target="_blank" rel="noopener noreferrer">
+            <span class="project-link__meta">
+              <span class="project-link__name">SHS Chess</span>
+              <span class="project-link__desc">Saratoga High School chess club website.</span>
+            </span>
+            <span class="project-link__cta">shschess.appspot.com</span>
+          </a>
+        </li>
+      </ul>
+    </section>
+
+    <section class="connect" id="connect" aria-labelledby="connect-heading">
+      <div class="section-intro">
+        <h2 id="connect-heading">Connect</h2>
+        <p>Find me elsewhere, or reach out for support.</p>
+      </div>
+      <ul class="connect-list">
+        <li><a href="https://linkedin.com/in/josephhlam" target="_blank" rel="noopener noreferrer">LinkedIn</a></li>
+        <li><a href="https://github.com/MovinIn" target="_blank" rel="noopener noreferrer">GitHub</a></li>
+        <li><a href="support.html">Support</a></li>
+      </ul>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p>© <span id="year"></span> Joseph Lam</p>
+  </footer>
+
+  <script>
+    document.getElementById("year").textContent = String(new Date().getFullYear());
+  </script>
+</body>
+</html>

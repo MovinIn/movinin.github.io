@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Support · Joseph Lam</title>
+  <meta name="description" content="Support and privacy information for apps by Joseph Lam." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,700&family=Figtree:wght@400;500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="assets/css/site.css" />
+</head>
+<body>
+  <div class="atmosphere" aria-hidden="true">
+    <div class="atmosphere__wash"></div>
+    <div class="atmosphere__orb atmosphere__orb--one"></div>
+    <div class="atmosphere__orb atmosphere__orb--two"></div>
+    <div class="atmosphere__grain"></div>
+  </div>
+
+  <header class="site-header">
+    <a class="wordmark" href="/">Joseph Lam</a>
+    <nav class="nav" aria-label="Primary">
+      <a href="/#projects">Projects</a>
+      <a href="/#connect">Connect</a>
+      <a href="support.html" aria-current="page">Support</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="page">
+      <div class="section-intro">
+        <h1>Support</h1>
+        <p>Questions about an app, or need a hand? Reach out anytime.</p>
+      </div>
+
+      <div class="page-panel">
+        <p>
+          Support email:
+          <a href="mailto:edusoft2024@gmail.com">edusoft2024@gmail.com</a>
+        </p>
+        <p>
+          Privacy policies:
+          <a href="policy.html">Bible Verse Memorizer</a>
+          ·
+          <a href="praychrist-policy.html">PrayChrist</a>
+          ·
+          <a href="fce-policy.html">FCE</a>
+        </p>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p>© <span id="year"></span> Joseph Lam</p>
+  </footer>
+
+  <script>
+    document.getElementById("year").textContent = String(new Date().getFullYear());
+  </script>
+</body>
+</html>

@@ -1,5 +1,6 @@
-title: null
-name: Support
+title: Joseph Lam
+name: Joseph Lam
+description: Projects by Joseph Lam — Bible Verse Memorizer, PrayChrist, HopeWeave, and more.
 theme: minima
 markdown: kramdown
 plugins:
@@ -8,4 +9,4 @@ titles_from_headings:
   enabled:     true
   strip_title: true
   collections: true
-  
+
