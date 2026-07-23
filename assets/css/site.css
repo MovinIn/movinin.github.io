@@ -1,14 +1,14 @@
 :root {
-  --ink: #15241f;
-  --ink-soft: #3a4f47;
-  --mist: #e7eef0;
-  --foam: #f3f7f5;
-  --pine: #1f4d45;
-  --pine-deep: #12352f;
-  --copper: #b86a2f;
-  --copper-soft: #d08a4f;
-  --line: rgba(21, 36, 31, 0.12);
-  --shadow: 0 18px 50px rgba(18, 53, 47, 0.08);
+  --ink: #1b1430;
+  --ink-soft: #5a4d72;
+  --mist: #efeaf7;
+  --foam: #f7f3fc;
+  --pine: #5c3d9a;
+  --pine-deep: #3d2668;
+  --copper: #8b4db8;
+  --copper-soft: #a66fd0;
+  --line: rgba(27, 20, 48, 0.12);
+  --shadow: 0 18px 50px rgba(61, 38, 104, 0.1);
   --font-display: "Bricolage Grotesque", Georgia, serif;
   --font-body: "Figtree", "Segoe UI", sans-serif;
   --max: 68rem;
@@ -58,9 +58,9 @@ a {
   position: absolute;
   inset: 0;
   background:
-    radial-gradient(120% 80% at 10% -10%, #d7e8e4 0%, transparent 55%),
-    radial-gradient(90% 70% at 90% 0%, #dce4f0 0%, transparent 50%),
-    linear-gradient(165deg, #eef4f2 0%, #e4ece8 42%, #d9e5e8 100%);
+    radial-gradient(120% 80% at 10% -10%, #e0d4f5 0%, transparent 55%),
+    radial-gradient(90% 70% at 90% 0%, #ddd0f2 0%, transparent 50%),
+    linear-gradient(165deg, #f4effa 0%, #ebe3f6 42%, #e0d8f0 100%);
   animation: wash-shift 18s var(--ease) infinite alternate;
 }
 
@@ -76,7 +76,7 @@ a {
   height: min(42vw, 28rem);
   top: -8%;
   right: -6%;
-  background: radial-gradient(circle at 30% 30%, #c9ddd8, transparent 70%);
+  background: radial-gradient(circle at 30% 30%, #d4c2ef, transparent 70%);
   animation: float-a 14s var(--ease) infinite alternate;
 }
 
@@ -85,7 +85,7 @@ a {
   height: min(50vw, 34rem);
   bottom: 8%;
   left: -12%;
-  background: radial-gradient(circle at 60% 40%, #c5d3e4, transparent 72%);
+  background: radial-gradient(circle at 60% 40%, #c9b8e8, transparent 72%);
   animation: float-b 16s var(--ease) infinite alternate;
 }
 
